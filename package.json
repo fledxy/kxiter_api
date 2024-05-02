@@ -1,0 +1,31 @@
+{
+  "name": "restful_app_bookreading",
+  "version": "1.0.0",
+  "description": "This is api restful for book reading application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fledxy/kxiter_api.git"
+  },
+  "author": "Fledxy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fledxy/kxiter_api/issues"
+  },
+  "homepage": "https://github.com/fledxy/kxiter_api#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.18.2",
+    "i": "^0.3.7",
+    "jsonwebtoken": "^9.0.2",
+    "mysql2": "^3.9.7",
+    "npm": "^10.4.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
